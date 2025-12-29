@@ -1,0 +1,75 @@
+/* ---------- Dashboard Layout ---------- */
+.dashboard {
+  padding: 2rem 0;
+}
+
+.dashboard header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ---------- Card Section ---------- */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  padding: 1.4rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* ---------- Add Transaction Form ---------- */
+.add-transaction {
+  margin-bottom: 2rem;
+}
+
+.add-transaction form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  background: white;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* ---------- Transaction List ---------- */
+.transactions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transactions li {
+  display: grid;
+  grid-template-columns: 120px 1fr 100px 120px;
+  padding: 0.8rem 1rem;
+  background: white;
+  margin-bottom: 0.6rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  font-size: 0.95rem;
+}
+
+.transactions li:nth-child(even) {
+  background: #fdfdfd;
+}
+
+.transactions h2 {
+  margin-bottom: 1rem;
+}
